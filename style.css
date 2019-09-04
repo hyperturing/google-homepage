@@ -1,8 +1,30 @@
+.searchButton {
+    position: relative;
+    top: 40px;
+    display:inline-block;
+    padding:0.2em 1.45em;
+    border:0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Segoe UI','Roboto', sans-serif;
+    font-weight:400;
+    color:#000000;
+    background-color:#CCCCCC;
+    text-align:center;
+}
+
+#googleSearch {
+    right: 53%;
+}
+
+#lucky {
+    right: 50%;
+}
 
 #googleIcon {
     position: absolute;
     top: 25%;
-    right: 39%;
+    right: 40%;
     width:20%;
     height:auto;
 }
@@ -14,8 +36,8 @@
 
 #searchBar {
     position: absolute;
-    top: 40%;
-    right: 35%;
+    top: 37%;
+    right: 12%;
 }
 
 #signIn {
@@ -51,23 +73,18 @@
     position:relative;
 }
 
-.navbar {
+.navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.navbar a {
-    display: block;
+.navbar li {
+    display: flex;
     padding: 8px;
-}
-
-#navbar1 li {
-    float: left;
-}
-
-#navbar2 li {
-    float: right;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 li a:hover {

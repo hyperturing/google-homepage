@@ -3,33 +3,34 @@
 <head>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body>    
-    <ul class="navbar" id="navbar1">
-        <li><a>About</a></li>
-        <li><a>Store</a></li>
-    </ul>
-    <ul class="navbar" id="navbar2">
-        <li>
-            <a id="signIn" style="background-color:#2979FF">Sign In</a>
-        </li>
-        <li>
-             <a>
-                <img id= "googleApps" src="https://image.flaticon.com/icons/svg/60/60991.svg"> 
-            </a>
-        </li>
-        <li><a>Gmail</a></li>
-        <li><a>Images</a></li>
-    </ul></body>
+<body>   
+    
+    <div class="navbar">
+        <ul>
+            <li style="float: left;"><a>About</a></li>
+            <li style="float: left;"><a>Store</a></li>
+            <li style="float: right;">
+                <a id="signIn" style="background-color:#2979FF">Sign In</a>
+            </li>
+            <li style="float: right;">
+                <a>
+                     <img id= "googleApps" src="https://image.flaticon.com/icons/svg/60/60991.svg"> 
+                </a>
+            </li>
+            <li style="float: right;"><a>Gmail</a></li>
+            <li style="float: right;"><a>Images</a></li>
+        </ul>
+    </div>
 
     <div id="searchContainer">
         <img id="googleIcon" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
                 alt="The Google Logo">
                 <form id="searchBar">
                     <input type="search" value="" name="searchBar" size="70">
+                    <a class="searchButton" id="googleSearch">Google Search</a>
+                    <a class="searchButton" id="lucky">I'm Feeling Lucky</a>
                 </form>
-                <a id="googleSearch">Google Search</a>
     </div>
-    
 
     <ul class="footer">
         <li style="float: left;"><a>Advertising</a></li>
@@ -39,6 +40,7 @@
         <li style="float: right;"><a>Terms</a></li>
         <li style="float: right;"><a>Privacy</a></li>
     </ul>
+
 </body>
 
 </html>
